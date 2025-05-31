@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | ZBoomGame</title>
+    <title>Unity Web Player | Z-Boom</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ZBoomGame</div>
+        <div id="unity-build-title">Z-Boom</div>
       </div>
     </div>
     <script>
@@ -52,16 +52,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
+      var loaderUrl = buildUrl + "/Build1.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Build.framework.js",
-        codeUrl: buildUrl + "/Build.wasm",
+        dataUrl: buildUrl + "/Build1.data.gz",
+        frameworkUrl: buildUrl + "/Build1.framework.js.gz",
+        codeUrl: buildUrl + "/Build1.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DanP1e",
-        productName: "ZBoomGame",
-        productVersion: "0.1.0",
+        productName: "Z-Boom",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
